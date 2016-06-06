@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'VIMNetworking/Networking/**/*.{h,m}'
   s.frameworks = "Foundation", "UIKit", "Security", "CoreGraphics", "AVFoundation"
-  s.dependency	'AFNetworking', '2.6.3'
+  s.dependency	'AFNetworking', '3.1.0'
 
   s.subspec 'Cache' do |ss|
     ss.source_files = 'VIMNetworking/Cache/*.{h,m}'
