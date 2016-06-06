@@ -19,8 +19,9 @@ Pod::Spec.new do |s|
                             "Rahul Kumar" => "support@vimeo.com" }
 
   s.social_media_url   = "http://twitter.com/vimeoapi"
-
-  s.platform     = { :ios => "8.0", :watchos => "2.0", :tvos => "9.2" }
+  s.ios.deployment_target = "8.0"
+  s.watchos.deployment_target = "2.0"
+  s.tvos.deployment_target = "9.0"
 
   s.requires_arc = true
   s.source = { :git => "https://github.com/vimeo/VIMNetworking.git", :tag => s.version.to_s }
